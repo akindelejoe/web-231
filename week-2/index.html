@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hands-On Project 2-2</title>
+    <link rel="stylesheet" href="style1.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculate Total Charges</h1>
+        <form id="priceForm">
+            <label for="basePrice">Base Price ($):</label>
+            <input type="text" id="basePrice" placeholder="Enter base price" required><br />
+
+            <label for="handlingFee">Handling Fee ($):</label>
+            <input type="text" id="handlingFee" placeholder="Enter handling fee" required><br />
+
+            <label for="taxRate">Tax Rate (%):</label>
+            <input type="text" id="taxRate" placeholder="Enter tax rate" required><br />
+
+            <button type="button" id="calculateButton">Calculate</button>
+        </form>
+        <p id="totalDisplay"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
