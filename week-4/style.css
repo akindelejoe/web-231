@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#output {
+    margin-top: 20px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+}
